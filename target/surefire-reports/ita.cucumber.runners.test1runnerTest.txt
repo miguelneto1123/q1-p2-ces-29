@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ita.cucumber.runners.test1runnerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.67 sec <<< FAILURE!
+Then the result should be 6(Scenario: Add two numbers)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <6>
+     but: was <5>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at ita.cucumber.steps.test1steps.theResultShouldBe(test1steps.java:29)
+	at ✽.Then the result should be 6(test1.feature:12)
+
+Scenario: Add two numbers  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <6>
+     but: was <5>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at ita.cucumber.steps.test1steps.theResultShouldBe(test1steps.java:29)
+	at ✽.Then the result should be 6(test1.feature:12)
+
