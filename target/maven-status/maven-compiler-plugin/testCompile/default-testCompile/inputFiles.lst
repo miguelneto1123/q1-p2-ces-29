@@ -1,2 +1,2 @@
-/home/miguel/ces-29/p2q1/src/test/java/ita/cucumber/runners/test1runnerTest.java
-/home/miguel/ces-29/p2q1/src/test/java/ita/cucumber/steps/test1steps.java
+/home/miguel/ces-29/p2q1/src/test/java/ita/cucumber/steps/eCommerceSteps.java
+/home/miguel/ces-29/p2q1/src/test/java/ita/cucumber/runners/eCommerceTest.java

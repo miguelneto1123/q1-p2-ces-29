@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         monochrome = true,
         plugin = {"pretty"},
-        tags = "@hardcoreSailor",
         features = "src/test/java/ita/cucumber/features/",
         glue = "ita.cucumber.steps"
 )

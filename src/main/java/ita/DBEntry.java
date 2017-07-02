@@ -36,4 +36,8 @@ public class DBEntry
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public void decreaseQuantity() {
+        this.quantity--;
+    }
 }
