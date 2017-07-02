@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         monochrome = true,
         plugin = {"pretty"},
-        tags = "@test1",
+        tags = "@hardcoreSailor",
         features = "src/test/java/ita/cucumber/features/",
         glue = "ita.cucumber.steps"
 )
@@ -17,5 +17,5 @@ import org.junit.runner.RunWith;
 /**
  * Created by miguel on 7/1/17.
  */
-public class test1runnerTest {
+public class eCommerceTest {
 }
